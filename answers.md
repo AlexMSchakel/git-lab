@@ -75,8 +75,26 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 aschakel@odd29:~/2400/git-lab$ 
 
+Answer #10: No, the online changes were not reflected on my local repository
 
+Answer #11: 
 
+To https://github.com/AlexMSchakel/git-lab.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AlexMSchakel/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+aschakel@odd29:~/2400/git-lab$ 
+
+Answer #12: The changes were added because I pulled the changes down from my remote repository
+
+Answer #13: 
+
+aschakel@odd29:~/2400/git-lab-2$ ls -a
+.  ..  .git  .gitignore  README.md
 
 
 
